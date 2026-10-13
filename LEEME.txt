@@ -1,0 +1,39 @@
+ZOCO SPORTS — PAQUETE DE WEB / PROTOTIPO AVANZADO
+
+CONTENIDO
+- index.html: web responsive con portada, navegación por secciones, búsqueda, tarjetas, lectura de artículos y panel de redacción local.
+- LEEME.txt: estas instrucciones.
+
+SECCIONES
+Inicio, Club Deportivo Toledo, Toledo Fútbol Sala, Club Baloncesto Toledo, Balonmano Ciudad Imperial y Otros.
+
+FUNCIONES QUE PUEDES PROBAR
+- Crear noticias, editarlas y eliminarlas.
+- Elegir sección, titular, entradilla, autor, fecha y estado (publicada/borrador).
+- Subir una imagen desde el dispositivo como portada y añadir descripción accesible.
+- Buscar noticias y abrir la vista de lectura.
+- Exportar/importar copias de seguridad JSON.
+- Diseño adaptable a móvil y ordenador; colores vino/granate, rosa y verde; sin logos de clubes.
+
+IMPORTANTE: LIMITACIÓN TÉCNICA
+Esta entrega es un prototipo estático y local. Las noticias e imágenes se guardan en el almacenamiento del navegador (localStorage), no en un servidor. El botón «Redacción» NO tiene autenticación real ni permisos seguros. Cualquiera que abra la web puede acceder a ese panel. Los borradores solo quedan ocultos en ese navegador; no hay sincronización entre dispositivos. No publiques este archivo como un medio con administración privada real.
+
+PARA PUBLICARLO EN INTERNET CON SEGURIDAD
+Hay que conectar la web a un CMS o backend que incluya:
+1. Cuenta de administrador con autenticación.
+2. Roles/permisos para autorizar redactores concretos.
+3. Base de datos para noticias y borradores.
+4. Almacenamiento de imágenes en servidor.
+5. Publicación online y copias de seguridad.
+6. Medidas de seguridad, recuperación de contraseña y protección antispam.
+
+No incluyas contraseñas en HTML/JavaScript ni confíes en ocultar botones para proteger contenido. El control de permisos debe validarse en el servidor.
+
+PRIMEROS PASOS
+1. Descomprime el ZIP en una carpeta.
+2. Abre index.html en Chrome, Firefox o Edge.
+3. Pulsa «Redacción» > «Nueva noticia».
+4. Prueba a crear una noticia, subir una foto y guardar.
+5. Exporta una copia de seguridad antes de limpiar datos del navegador.
+
+Los artículos incluidos son textos de demostración, no noticias reales. Sustitúyelos por contenido verificado antes de compartir la web.
